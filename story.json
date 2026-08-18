@@ -1,0 +1,52 @@
+{
+  "start": "mesto_brana",
+  "scenes": {
+
+    "mesto_brana": {
+      "bg": "assets/valdren_pohlad.jpg",
+      "lines": [
+        { "speaker": "", "text": "Brána Valdrenu sa pred tebou týči ako čierna jazva na tele kamenných hradieb.", "char": "assets/varek.png" },
+        { "speaker": "", "text": "Varek. Roky si sníval o tomto meste. Teraz, keď pred ním stojíš, cítiš len ticho.", "char": "assets/varek.png" },
+        { "speaker": "", "text": "Nadýchneš sa a vykročíš dnu.", "char": "assets/varek.png" }
+      ],
+      "choices": [
+        { "text": "Pokračovať", "next": "namestie" }
+      ]
+    },
+
+    "namestie": {
+      "bg": "assets/valdren_pohlad.jpg",
+      "lines": [
+        { "speaker": "", "text": "Hlavné námestie Valdrenu žije vlastným životom - trhovci kričia, deti pobehujú medzi vozmi." },
+        { "speaker": "", "text": "Únava z cesty ťa ženie za jediným cieľom - nájsť miesto, kde si oddýchneš a možno aj niečo zistíš." }
+      ],
+      "choices": [
+        { "text": "Zamieriť do krčmy", "next": "krcma" }
+      ]
+    },
+
+    "krcma": {
+      "bg": "assets/valdren_pohlad.jpg",
+      "lines": [
+        { "speaker": "", "text": "Dvere krčmy zavŕzgajú. Vnútri dym, tiché rozhovory a vôňa lacného vína." },
+        { "speaker": "Elira", "text": "Nová tvár vo Valdrene. To sa tu nevidí často.", "char": "assets/elira.png" },
+        { "speaker": "", "text": "Za stolom v kúte sedí žena, ktorej pohľad akoby ťa čakal už dávno predtým, než si vôbec vošiel.", "char": "assets/elira.png" }
+      ],
+      "choices": [
+        { "text": "Pokračovať", "next": "npc_uvod" }
+      ]
+    },
+
+    "npc_uvod": {
+      "bg": "assets/valdren_pohlad.jpg",
+      "lines": [
+        { "speaker": "Elira", "text": "Sadni si, Varek. Áno, viem ako sa voláš - vo Valdrene sa novinky šíria rýchlejšie než chceš.", "char": "assets/elira.png" },
+        { "speaker": "Elira", "text": "Mám pre teba prácu. Ak si ochotný počúvať.", "char": "assets/elira.png" }
+      ],
+      "choices": [
+        { "text": "[Koniec ukážky]", "next": "npc_uvod" }
+      ]
+    }
+
+  }
+}

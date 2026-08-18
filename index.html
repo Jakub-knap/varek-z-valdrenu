@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Fantasy VN</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game">
+
+    <div id="title-screen">
+      <div id="title-bg"></div>
+      <div id="title-content">
+        <h1 id="game-title">Názov Hry</h1>
+        <div id="title-buttons">
+          <button id="btn-continue" class="title-btn" style="display:none;">Pokračovať</button>
+          <button id="btn-newgame" class="title-btn">Začať hrať</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="bg-layer"></div>
+    <div id="char-layer"><img id="char-img" src="" alt=""></div>
+    <div id="ui-layer">
+      <div id="textbox">
+        <div id="speaker"></div>
+        <div id="dialogue"></div>
+        <button id="next-btn" aria-label="pokračovať">▶</button>
+      </div>
+      <div id="choices"></div>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
